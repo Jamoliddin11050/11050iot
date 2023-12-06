@@ -3,7 +3,9 @@
 
 const char *ssid = "Star";
 const char *password = "935062766";
-
+const char *firebaseHost = "https://waterdetection11050-default-rtdb.firebaseio.com/";
+const String firebasePath = "waterdetection11050-firebase-adminsdk-i3iwf-4cf7851482.json";
+const String firebaseApiKey = "AIzaSyCbPKXvkdWT3YVEHzqU4iE6-ACS03S7Dgc";
 ESP8266WebServer server(80);
 
 // Function declarations
